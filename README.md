@@ -1,11 +1,11 @@
 Tree Route, route HTTP calls fast
 
-# Tree Router - Nested Tree Fast and Efficient HTTP Routing at constant O(1) lookup with Nested Trees
+# Tree Router - Drop into Express, Get fast and efficient HTTP routing at constant O(1) lookup via Nested Trees
 
 
 ## With [Express](https://github.com/expressjs/expressjs.com "Express")
 
-    var TreeRouter = require('tree-router');
+    var TreeRouter = require('tree-router-middleware');
     var express = require('express');
 
     var router = TreeRouter();    
@@ -14,7 +14,7 @@ Tree Route, route HTTP calls fast
 
 ## With [Router-Middleware](https://github.com/rook2pawn/router-middleware "Router Middleware")
 
-    var TreeRouter = require('tree-router');
+    var TreeRouter = require('tree-router-middleware');
     var rm = require('router-middleware');
 
     var router = TreeRouter();    
